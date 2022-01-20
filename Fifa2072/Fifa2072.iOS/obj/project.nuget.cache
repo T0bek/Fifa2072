@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tgf6yvBMgcviNtEQutpUNzemrKgnpuLHFdgZB6LZNRQBIP/EUL/a5Ub/HHnhZMXLUn3JoN9AoBk0RXc2j8C05g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TobiaszJozwik\\Desktop\\Fifa2072\\Fifa2072\\Fifa2072.iOS\\Fifa2072.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TobiaszJozwik\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

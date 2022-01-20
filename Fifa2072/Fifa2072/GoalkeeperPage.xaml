@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fifa2072.GoalkeeperPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Bramkarz" HorizontalOptions="CenterAndExpand" />
+            <Button Text="Utwórz postać" Clicked="Button_Clicked_1"/>
+            <Button Text="Anuluj" Clicked="Button_Clicked_2"/>
+            <Label Text="Aby (tren)ować swojego bramkarza wciskaj przycisk"/>
+            <Label Text="Speed"/>
+            <Label x:Name="labelName1" Text=""/>
+            <Label Text="Handling"/>
+            <Label x:Name="labelName2" Text=""/>
+            <Button Text="Trenuj" Clicked="Button_Clicked"/>
+            <Label x:Name="labelName3" Text=""/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

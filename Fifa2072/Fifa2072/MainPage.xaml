@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fifa2072.MainPage">
+    <ContentPage.Resources>
+
+    </ContentPage.Resources>
+    <StackLayout VerticalOptions="Center"
+                 Margin="15">
+        <Label x:Name="labelName" Text="Cześć! Witaj w Fifie 2072!"/>
+        <Picker x:Name="picker"
+                    Title="Wybierz piłkarza:"
+                    TitleColor="Red">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Bramkarz</x:String>
+                    <x:String>Obrońca</x:String>
+                    <x:String>Pomocnik</x:String>
+                    <x:String>Napastnik</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button x:Name="pickerButton"
+                Text="Potwierdź"
+                TextColor="White"
+                BackgroundColor="Blue"
+                Clicked="pickerButton_Clicked"/>
+        <Label Text="{Binding Source={x:Reference picker}, Path=SelectedItem}" />
+    </StackLayout>
+</ContentPage>
